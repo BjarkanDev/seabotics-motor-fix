@@ -1,0 +1,2 @@
+[console_scripts]
+serial_thruster_wrapper = thruster_control.serial_thruster_wrapper:main

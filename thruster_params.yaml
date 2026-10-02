@@ -1,0 +1,12 @@
+thrust_allocation_node:
+  ros__parameters:
+    mass: 3.0       # kg
+    d1x: 0.0        # metre
+    d1y: 0.1575
+    d2x: 0.0
+    d2y: -0.1575
+    d3x: 0.25
+    d3y: 0.0
+    deadzone: 0.05  # controller
+    serial_port: /dev/ttyUSB0
+    baudrate: 115200

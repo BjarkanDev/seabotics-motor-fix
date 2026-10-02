@@ -1,0 +1,33 @@
+[1.027s] Invoking command in '/home/bjorn/Projects/motor_fix/ws/src/thruster_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bjorn/Projects/motor_fix/ws/build/thruster_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bjorn/Projects/motor_fix/ws/install/thruster_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/thruster_control build --build-base /home/bjorn/Projects/motor_fix/ws/build/thruster_control/build install --record /home/bjorn/Projects/motor_fix/ws/build/thruster_control/install.log --install-scripts $base/lib/thruster_control --single-version-externally-managed install_data
+[1.334s] running egg_info
+[1.355s] creating ../../build/thruster_control/thruster_control.egg-info
+[1.356s] writing ../../build/thruster_control/thruster_control.egg-info/PKG-INFO
+[1.356s] writing dependency_links to ../../build/thruster_control/thruster_control.egg-info/dependency_links.txt
+[1.356s] writing entry points to ../../build/thruster_control/thruster_control.egg-info/entry_points.txt
+[1.357s] writing requirements to ../../build/thruster_control/thruster_control.egg-info/requires.txt
+[1.357s] writing top-level names to ../../build/thruster_control/thruster_control.egg-info/top_level.txt
+[1.357s] writing manifest file '../../build/thruster_control/thruster_control.egg-info/SOURCES.txt'
+[1.400s] reading manifest file '../../build/thruster_control/thruster_control.egg-info/SOURCES.txt'
+[1.401s] writing manifest file '../../build/thruster_control/thruster_control.egg-info/SOURCES.txt'
+[1.401s] running build
+[1.401s] running build_py
+[1.401s] creating /home/bjorn/Projects/motor_fix/ws/build/thruster_control/build/lib/thruster_control
+[1.401s] copying thruster_control/__init__.py -> /home/bjorn/Projects/motor_fix/ws/build/thruster_control/build/lib/thruster_control
+[1.401s] copying thruster_control/serial_thruster_wrapper.py -> /home/bjorn/Projects/motor_fix/ws/build/thruster_control/build/lib/thruster_control
+[1.401s] running install
+[1.407s] running install_lib
+[1.431s] creating /home/bjorn/Projects/motor_fix/ws/install/thruster_control/lib/python3.12/site-packages/thruster_control
+[1.431s] copying /home/bjorn/Projects/motor_fix/ws/build/thruster_control/build/lib/thruster_control/__init__.py -> /home/bjorn/Projects/motor_fix/ws/install/thruster_control/lib/python3.12/site-packages/thruster_control
+[1.431s] copying /home/bjorn/Projects/motor_fix/ws/build/thruster_control/build/lib/thruster_control/serial_thruster_wrapper.py -> /home/bjorn/Projects/motor_fix/ws/install/thruster_control/lib/python3.12/site-packages/thruster_control
+[1.431s] byte-compiling /home/bjorn/Projects/motor_fix/ws/install/thruster_control/lib/python3.12/site-packages/thruster_control/__init__.py to __init__.cpython-312.pyc
+[1.432s] byte-compiling /home/bjorn/Projects/motor_fix/ws/install/thruster_control/lib/python3.12/site-packages/thruster_control/serial_thruster_wrapper.py to serial_thruster_wrapper.cpython-312.pyc
+[1.434s] running install_data
+[1.434s] creating /home/bjorn/Projects/motor_fix/ws/install/thruster_control/share/ament_index/resource_index/packages
+[1.434s] copying resource/thruster_control -> /home/bjorn/Projects/motor_fix/ws/install/thruster_control/share/ament_index/resource_index/packages
+[1.434s] copying package.xml -> /home/bjorn/Projects/motor_fix/ws/install/thruster_control/share/thruster_control
+[1.434s] running install_egg_info
+[1.456s] Copying ../../build/thruster_control/thruster_control.egg-info to /home/bjorn/Projects/motor_fix/ws/install/thruster_control/lib/python3.12/site-packages/thruster_control-0.0.0-py3.12.egg-info
+[1.456s] running install_scripts
+[1.495s] Installing serial_thruster_wrapper script to /home/bjorn/Projects/motor_fix/ws/install/thruster_control/lib/thruster_control
+[1.495s] writing list of installed files to '/home/bjorn/Projects/motor_fix/ws/build/thruster_control/install.log'
+[1.526s] Invoked command in '/home/bjorn/Projects/motor_fix/ws/src/thruster_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bjorn/Projects/motor_fix/ws/build/thruster_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bjorn/Projects/motor_fix/ws/install/thruster_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/thruster_control build --build-base /home/bjorn/Projects/motor_fix/ws/build/thruster_control/build install --record /home/bjorn/Projects/motor_fix/ws/build/thruster_control/install.log --install-scripts $base/lib/thruster_control --single-version-externally-managed install_data

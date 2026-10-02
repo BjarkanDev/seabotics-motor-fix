@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="thrust_allocation" exec="serial_wrapper.py" name="serial_thruster_wrapper">
+        <param from="$(find-pkg-share thrust_allocation)/config/thruster_params.yaml"/>
+        <param name="serial_port" value="/dev/ttyUSB0"/>
+        <param name="baudrate" value="115200"/>
+    </node>
+</launch>
